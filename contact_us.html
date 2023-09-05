@@ -11,23 +11,23 @@
     <div class="container">
         <h1>Contact Us</h1>
         <hr>
-        <form name="myForm" action="about_us.html">
-            
-            Name: <input type="text" for="fullName" id="name" name="fullName">
-            <br><br>
-            Email Address: <input type="email" id="email" name="emailAddress">
-            <br><br>
-            Are You Employed ? 
-            <input type="radio" value="Y">Yes
-            <input type="radio" value="N">No
-            <br><br>
-            <h6>If No are you willing to join the group ?</h6>
-            <input type="radio" id="Join_Yes" name="radioVal" value="Y">Yes
-            <input type="radio" id="Join_No" name="radioVal" value="N">No
-            <br><br>    
-            <button class="btn btn-primary" onclick="submit()" id="form_submit">Submit</button>  
-        </form>
-        </div>
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
 </body>
 </html>
 </body>
